@@ -1,0 +1,12 @@
+{
+    "name": "da-mitchell/dota-2-reque",
+    "authors": [
+        {
+            "name": "Dan Mitchell",
+            "email": "danmitchell@ntlworld.com"
+        }
+    ],
+    "require": {
+        "kamisama/php-resque-ex": "1.2.7"
+    }
+}
