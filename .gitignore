@@ -1,6 +1,5 @@
 .idea/
 .vagrant/
-/puppet/modules/
 /vendor/
 *.iml
 *.iws

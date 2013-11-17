@@ -33,6 +33,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             node_config.vm.network 'private_network', ip: node[:ip]
 
             node_config.vm.provision :puppet do |puppet|
+                puppet.facter = {
+                    "fqdn" => node[:hostname],
+            	}
                 puppet.manifests_path = 'puppet/manifests'
                 puppet.module_path = 'puppet/modules'
             end

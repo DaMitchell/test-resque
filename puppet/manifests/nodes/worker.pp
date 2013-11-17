@@ -8,7 +8,12 @@ node /^worker.*/
 
     Exec["apt-get update"] -> Package <| |>
 
+    package { ['make', 'php5-dev'] :
+        ensure => "installed",
+    }
+
     class { 'php': }
 
     class { 'pcntl': }
+    class { 'phpredis': }
 }
