@@ -9,4 +9,6 @@ node /^worker.*/
     Exec["apt-get update"] -> Package <| |>
 
     class { 'php': }
+
+    class { 'pcntl': }
 }
