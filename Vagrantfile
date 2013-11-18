@@ -7,12 +7,13 @@ VAGRANTFILE_API_VERSION = '2'
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     nodes = [
-        #{:hostname => 'redis-server', :ip => '192.168.2.10', :ram => 1024}
+        {:hostname => 'redis-server', :ip => '192.168.2.10', :ram => 1024},
 
         {:hostname => 'worker-a', :ip => '192.168.2.20', :ram => 1024}
     ]
 
     nodes.each do |node|
+
         config.vm.define node[:hostname] do |node_config|
 
             memory = node[:ram] ? node[:ram] : 320;
@@ -20,7 +21,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             config.vm.provider 'virtualbox' do |vb|
                 vb.customize [
                     'modifyvm', :id,
-                    '--name', node[:hostname],
                     '--memory', memory.to_s
                 ]
 
