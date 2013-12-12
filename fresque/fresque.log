@@ -1,0 +1,78 @@
+PHP Warning:  Module 'pcntl' already loaded in Unknown on line 0
+[2013-12-11T10:44:18+00:00] Starting worker worker-a:7896:default
+PHP Warning:  Module 'pcntl' already loaded in Unknown on line 0
+[2013-12-11T10:44:18+00:00] Starting worker worker-a:7902:default
+PHP Warning:  Module 'pcntl' already loaded in Unknown on line 0
+[2013-12-11T10:44:18+00:00] Starting worker worker-a:7908:default
+[2013-12-11T10:44:23+00:00] got {"queue":"default","id":"2e5efd962de872d9ffaa9326ca274f50","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:23+00:00] Processing ID:2e5efd962de872d9ffaa9326ca274f50 in default
+Hello Dan from worker
+[2013-12-11T10:44:23+00:00] done ID:2e5efd962de872d9ffaa9326ca274f50
+[2013-12-11T10:44:28+00:00] got {"queue":"default","id":"4ba567da834c74dfa580d2c58739f347","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:28+00:00] Processing ID:4ba567da834c74dfa580d2c58739f347 in default
+Hello Dan from worker
+[2013-12-11T10:44:28+00:00] done ID:4ba567da834c74dfa580d2c58739f347
+[2013-12-11T10:44:28+00:00] got {"queue":"default","id":"037ca35ef2e3b740d2fda23c33f9d1fc","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:28+00:00] Processing ID:037ca35ef2e3b740d2fda23c33f9d1fc in default
+Hello Dan from worker
+[2013-12-11T10:44:28+00:00] done ID:037ca35ef2e3b740d2fda23c33f9d1fc
+[2013-12-11T10:44:28+00:00] got {"queue":"default","id":"c2f4583b502f719bfa03e16726f36330","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:28+00:00] Processing ID:c2f4583b502f719bfa03e16726f36330 in default
+Hello Dan from worker
+[2013-12-11T10:44:28+00:00] done ID:c2f4583b502f719bfa03e16726f36330
+[2013-12-11T10:44:28+00:00] got {"queue":"default","id":"e61ae3fb7142b22cfaa3f071f71d26ea","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:28+00:00] Processing ID:e61ae3fb7142b22cfaa3f071f71d26ea in default
+Hello Dan from worker
+[2013-12-11T10:44:28+00:00] done ID:e61ae3fb7142b22cfaa3f071f71d26ea
+[2013-12-11T10:44:28+00:00] got {"queue":"default","id":"818705c30e622abc745f4a6544ed08c7","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:28+00:00] Processing ID:818705c30e622abc745f4a6544ed08c7 in default
+Hello Dan from worker
+[2013-12-11T10:44:28+00:00] done ID:818705c30e622abc745f4a6544ed08c7
+[2013-12-11T10:44:38+00:00] got {"queue":"default","id":"4927bde4af504db5092fe4d8095770e2","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T10:44:38+00:00] Processing ID:4927bde4af504db5092fe4d8095770e2 in default
+Hello Dan from worker
+[2013-12-11T10:44:38+00:00] done ID:4927bde4af504db5092fe4d8095770e2
+[2013-12-11T11:36:51+00:00] Exiting...
+[2013-12-11T11:36:51+00:00] Exiting...
+[2013-12-11T11:36:51+00:00] Exiting...
+PHP Warning:  Module 'pcntl' already loaded in Unknown on line 0
+[2013-12-11T13:01:20+00:00] Starting worker worker-a:8008:default
+PHP Warning:  Module 'pcntl' already loaded in Unknown on line 0
+[2013-12-11T13:01:20+00:00] Starting worker worker-a:8014:default
+PHP Warning:  Module 'pcntl' already loaded in Unknown on line 0
+[2013-12-11T13:01:21+00:00] Starting worker worker-a:8020:default
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"891f6b4c42d1f9fd15dc8983a142c672","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:891f6b4c42d1f9fd15dc8983a142c672 in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:891f6b4c42d1f9fd15dc8983a142c672
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"d0bf8bcbe620b9de04ed049442cc8435","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:d0bf8bcbe620b9de04ed049442cc8435 in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:d0bf8bcbe620b9de04ed049442cc8435
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"91699b088f9e81060efaf59b2b0eea4c","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:91699b088f9e81060efaf59b2b0eea4c in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:91699b088f9e81060efaf59b2b0eea4c
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"da453c525794d511ac72a9481d0965a4","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:da453c525794d511ac72a9481d0965a4 in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:da453c525794d511ac72a9481d0965a4
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"b11217a317a8c8079213d271dbe235c8","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:b11217a317a8c8079213d271dbe235c8 in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:b11217a317a8c8079213d271dbe235c8
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"0359b76fc2cf6d4cf2adfc4c4c420f3f","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:0359b76fc2cf6d4cf2adfc4c4c420f3f in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:0359b76fc2cf6d4cf2adfc4c4c420f3f
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"d41174ddfebb175ed84bc486448ba1a5","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:d41174ddfebb175ed84bc486448ba1a5 in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:d41174ddfebb175ed84bc486448ba1a5
+[2013-12-11T13:01:40+00:00] got {"queue":"default","id":"b8933998c167d1ab8bf620b243d941e6","class":"\\Worker\\EchoText","args":[{"name":"Dan"}]}
+[2013-12-11T13:01:40+00:00] Processing ID:b8933998c167d1ab8bf620b243d941e6 in default
+Hello Dan from worker
+[2013-12-11T13:01:40+00:00] done ID:b8933998c167d1ab8bf620b243d941e6
+[2013-12-11T14:30:50+00:00] Exiting...
+[2013-12-11T14:30:50+00:00] Exiting...
+[2013-12-11T14:30:50+00:00] Exiting...

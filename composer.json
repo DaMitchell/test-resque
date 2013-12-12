@@ -7,6 +7,12 @@
         }
     ],
     "require": {
-        "kamisama/php-resque-ex": "1.2.7"
+        "kamisama/php-resque-ex": "1.2.7",
+        "fresque/fresque": "1.2.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Worker": "src"
+        }
     }
 }
