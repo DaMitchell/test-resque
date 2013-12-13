@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     nodes = [
         {:hostname => 'redis-server', :ip => '192.168.2.10', :ram => 512},
-        #{:hostname => 'resque-board', :ip => '192.168.2.15', :ram => 320},
+        {:hostname => 'resque-board', :ip => '192.168.2.15', :ram => 320},
 
         {:hostname => 'worker-a', :ip => '192.168.2.20', :ram => 512}
     ]
