@@ -7,8 +7,8 @@ VAGRANTFILE_API_VERSION = '2'
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     nodes = [
-        {:hostname => 'redis-server', :ip => '192.168.2.10', :ram => 512},
-        {:hostname => 'resque-board', :ip => '192.168.2.15', :ram => 320},
+        #{:hostname => 'redis-server', :ip => '192.168.2.10', :ram => 512},
+        #{:hostname => 'resque-board', :ip => '192.168.2.15', :ram => 320},
 
         {:hostname => 'worker-a', :ip => '192.168.2.20', :ram => 512}
     ]
@@ -37,8 +37,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                 puppet.facter = {
                     "fqdn" => node[:hostname],
             	}
-                puppet.manifests_path = 'puppet/manifests'
-                puppet.module_path = 'puppet/modules'
+                puppet.manifests_path = '.puppet/manifests'
+                puppet.module_path = '.puppet/modules'
             end
         end
     end
